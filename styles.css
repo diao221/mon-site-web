@@ -1,0 +1,435 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+#contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#whatsappContact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#whatsappContact a {
+    text-decoration: none;
+}
+
+#whatsappContact button {
+    padding: 10px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#whatsappContact button:hover {
+    background-color: #128C7E;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* styles.css */
+
+/* Fond de page */
+body {
+    background: linear-gradient(135deg, #6e7fbb, #b8c6e3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* En-tête */
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Sections */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Bouton WhatsApp */
+#whatsappContact {
+    margin-top: 30px;
+}
+
+#whatsappContact button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#whatsappContact button:hover {
+    background-color: #128C7E;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+}
+/* Effet de survol pour les boutons */
+form button:hover, #whatsappContact button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation des sections au survol */
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+/* Menu de navigation sticky */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+/* CSS pour les animations */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Galerie */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: 30%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.alert-box {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 2px solid #ff9900;
+    font-family: Arial, sans-serif;
+}
+
+.alert-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.alert-box ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.alert-box ul li {
+    margin-bottom: 8px;
+}
+
+.alert-box p {
+    font-size: 16px;
+}
+/* Styles pour la section "À propos" */
+#about-us {
+    background-color: #f4f4f4;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#about-us h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.mission, .values {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.mission h2, .values h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.values ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.values li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.values li strong {
+    color: #2980b9;
+}
+
+/* Appliquer l'image d'arrière-plan à toute la page */
+body {
+    background-image: url('DALL·E 2024-11-19 22.12.29 - A nighttime cityscape with glowing street lights and a distant skyline. The scene is slightly out of focus, with soft bokeh effects from the lights, g.webp'); /* Remplace par le chemin de ton image */
+    background-size: cover;  /* Assure que l'image couvre toute la surface de la page */
+    background-position: center;  /* Centre l'image sur la page */
+    background-attachment: fixed;  /* Fixe l'image en arrière-plan lors du défilement */
+    color: #fff;  /* Texte en blanc pour mieux se voir sur l'image */
+    font-family: Arial, sans-serif;
+}
+
+/* Optionnel : Pour une section spécifique avec une image d'arrière-plan */
+#about-us {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
